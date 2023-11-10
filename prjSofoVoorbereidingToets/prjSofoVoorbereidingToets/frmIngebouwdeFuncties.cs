@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace prjSofoVoorbereidingToets
 {
-    public partial class frmNavigatie : Form
+    public partial class frmIngebouwdeFuncties : Form
     {
-        public frmNavigatie()
+        public frmIngebouwdeFuncties()
         {
             InitializeComponent();
-        }
-
-        private void btnHoofdstuk3_Click(object sender, EventArgs e)
-        {
-            frmIngebouwdeFuncties frmIngebouwdeFuncties = new frmIngebouwdeFuncties();
-            frmIngebouwdeFuncties.Show();
         }
     }
 }

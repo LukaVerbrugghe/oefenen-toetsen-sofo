@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmIngebouwdeFuncties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngebouwdeFuncties.Designer.cs">
+      <DependentUpon>frmIngebouwdeFuncties.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNavigatie.cs">
       <SubType>Form</SubType>
     </Compile>

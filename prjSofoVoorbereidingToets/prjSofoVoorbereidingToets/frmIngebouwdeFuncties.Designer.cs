@@ -1,6 +1,6 @@
 ﻿namespace prjSofoVoorbereidingToets
 {
-    partial class frmNavigatie
+    partial class frmIngebouwdeFuncties
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnHoofdstuk3 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // btnHoofdstuk3
-            // 
-            this.btnHoofdstuk3.Location = new System.Drawing.Point(13, 13);
-            this.btnHoofdstuk3.Name = "btnHoofdstuk3";
-            this.btnHoofdstuk3.Size = new System.Drawing.Size(132, 57);
-            this.btnHoofdstuk3.TabIndex = 0;
-            this.btnHoofdstuk3.Text = "Hoofdstuk 3";
-            this.btnHoofdstuk3.UseVisualStyleBackColor = true;
-            this.btnHoofdstuk3.Click += new System.EventHandler(this.btnHoofdstuk3_Click);
-            // 
-            // frmNavigatie
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnHoofdstuk3);
-            this.Name = "frmNavigatie";
-            this.Text = "Navigatie";
-            this.ResumeLayout(false);
-
+            this.Text = "frmIngebouwdeFuncties";
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnHoofdstuk3;
     }
 }
-
