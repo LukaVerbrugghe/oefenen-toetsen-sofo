@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDatumVoluit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatumVoluit.Designer.cs">
+      <DependentUpon>frmDatumVoluit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeboortejaar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeboortejaar.Designer.cs">
+      <DependentUpon>frmGeboortejaar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngebouwdeFuncties-GrootsteGetal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngebouwdeFuncties-GrootsteGetal.Designer.cs">
+      <DependentUpon>frmIngebouwdeFuncties-GrootsteGetal.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmIngebouwdeFuncties.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,10 +76,31 @@
     <Compile Include="frmNavigatie.Designer.cs">
       <DependentUpon>frmNavigatie.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOnderhoudAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOnderhoudAuto.Designer.cs">
+      <DependentUpon>frmOnderhoudAuto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmDatumVoluit.resx">
+      <DependentUpon>frmDatumVoluit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeboortejaar.resx">
+      <DependentUpon>frmGeboortejaar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngebouwdeFuncties-GrootsteGetal.resx">
+      <DependentUpon>frmIngebouwdeFuncties-GrootsteGetal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngebouwdeFuncties.resx">
+      <DependentUpon>frmIngebouwdeFuncties.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNavigatie.resx">
       <DependentUpon>frmNavigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOnderhoudAuto.resx">
+      <DependentUpon>frmOnderhoudAuto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
