@@ -46,14 +46,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmNavigatie.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmNavigatie.Designer.cs">
+      <DependentUpon>frmNavigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 1\frmNavigatieHoofdstuk1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 1\frmNavigatieHoofdstuk1.Designer.cs">
+      <DependentUpon>frmNavigatieHoofdstuk1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 2\frmNavigatieHoofdstuk2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 2\frmNavigatieHoofdstuk2.Designer.cs">
+      <DependentUpon>frmNavigatieHoofdstuk2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frmNavigatieHoofdstuk3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frmNavigatieHoofdstuk3.Designer.cs">
+      <DependentUpon>frmNavigatieHoofdstuk3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\02_Selectie\frmSelectie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\02_Selectie\frmSelectie.Designer.cs">
+      <DependentUpon>frmSelectie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\03_Iteraties\frmIteraties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\03_Iteraties\frmIteraties.Designer.cs">
+      <DependentUpon>frmIteraties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\frmNavigatieHoofdstuk4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\frmNavigatieHoofdstuk4.Designer.cs">
+      <DependentUpon>frmNavigatieHoofdstuk4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\01_Sequentie\frmSequentie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\01_Sequentie\frmSequentie.Designer.cs">
+      <DependentUpon>frmSequentie.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmNavigatie.resx">
+      <DependentUpon>frmNavigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 1\frmNavigatieHoofdstuk1.resx">
+      <DependentUpon>frmNavigatieHoofdstuk1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 2\frmNavigatieHoofdstuk2.resx">
+      <DependentUpon>frmNavigatieHoofdstuk2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 3\frmNavigatieHoofdstuk3.resx">
+      <DependentUpon>frmNavigatieHoofdstuk3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\02_Selectie\frmSelectie.resx">
+      <DependentUpon>frmSelectie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\03_Iteraties\frmIteraties.resx">
+      <DependentUpon>frmIteraties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\frmNavigatieHoofdstuk4.resx">
+      <DependentUpon>frmNavigatieHoofdstuk4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\01_Sequentie\frmSequentie.resx">
+      <DependentUpon>frmSequentie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +142,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

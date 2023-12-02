@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Examen_Sofo_Oefeningen_2324_Sem1 {
-    public partial class Form1 : Form {
-        public Form1() {
+namespace Examen_Sofo_Oefeningen_2324_Sem1.Hoofdstuk_4._03_Iteraties {
+    public partial class frmIteraties : Form {
+        public frmIteraties() {
             InitializeComponent();
         }
     }
