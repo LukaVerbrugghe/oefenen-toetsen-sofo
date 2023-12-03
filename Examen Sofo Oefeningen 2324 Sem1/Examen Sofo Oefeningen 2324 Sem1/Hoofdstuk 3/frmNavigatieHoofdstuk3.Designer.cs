@@ -37,13 +37,14 @@
             // btnGraden
             // 
             this.btnGraden.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGraden.ForeColor = System.Drawing.Color.Red;
+            this.btnGraden.ForeColor = System.Drawing.Color.Green;
             this.btnGraden.Location = new System.Drawing.Point(12, 12);
             this.btnGraden.Name = "btnGraden";
             this.btnGraden.Size = new System.Drawing.Size(182, 74);
             this.btnGraden.TabIndex = 1;
             this.btnGraden.Text = "Graden";
             this.btnGraden.UseVisualStyleBackColor = true;
+            this.btnGraden.Click += new System.EventHandler(this.btnGraden_Click);
             // 
             // btnCirkelberekening
             // 
@@ -59,13 +60,14 @@
             // btnGrootsteGetal
             // 
             this.btnGrootsteGetal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGrootsteGetal.ForeColor = System.Drawing.Color.Red;
+            this.btnGrootsteGetal.ForeColor = System.Drawing.Color.Green;
             this.btnGrootsteGetal.Location = new System.Drawing.Point(388, 12);
             this.btnGrootsteGetal.Name = "btnGrootsteGetal";
             this.btnGrootsteGetal.Size = new System.Drawing.Size(182, 74);
             this.btnGrootsteGetal.TabIndex = 3;
             this.btnGrootsteGetal.Text = "Grootste getal";
             this.btnGrootsteGetal.UseVisualStyleBackColor = true;
+            this.btnGrootsteGetal.Click += new System.EventHandler(this.btnGrootsteGetal_Click);
             // 
             // btnDatumVoluit
             // 
@@ -81,13 +83,14 @@
             // btnGeboortejaar
             // 
             this.btnGeboortejaar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGeboortejaar.ForeColor = System.Drawing.Color.Red;
+            this.btnGeboortejaar.ForeColor = System.Drawing.Color.Green;
             this.btnGeboortejaar.Location = new System.Drawing.Point(200, 92);
             this.btnGeboortejaar.Name = "btnGeboortejaar";
             this.btnGeboortejaar.Size = new System.Drawing.Size(182, 74);
             this.btnGeboortejaar.TabIndex = 5;
             this.btnGeboortejaar.Text = "Geboortejaar";
             this.btnGeboortejaar.UseVisualStyleBackColor = true;
+            this.btnGeboortejaar.Click += new System.EventHandler(this.btnGeboortejaar_Click);
             // 
             // btnOnderhoudAuto
             // 
@@ -103,13 +106,14 @@
             // btnToegangscode
             // 
             this.btnToegangscode.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnToegangscode.ForeColor = System.Drawing.Color.Red;
+            this.btnToegangscode.ForeColor = System.Drawing.Color.Green;
             this.btnToegangscode.Location = new System.Drawing.Point(12, 172);
             this.btnToegangscode.Name = "btnToegangscode";
             this.btnToegangscode.Size = new System.Drawing.Size(182, 74);
             this.btnToegangscode.TabIndex = 7;
             this.btnToegangscode.Text = "Toegangscode";
             this.btnToegangscode.UseVisualStyleBackColor = true;
+            this.btnToegangscode.Click += new System.EventHandler(this.btnToegangscode_Click);
             // 
             // btnRechthoek
             // 

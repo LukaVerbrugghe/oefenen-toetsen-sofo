@@ -13,5 +13,10 @@ namespace Examen_Sofo_Oefeningen_2324_Sem1.Hoofdstuk_1 {
         public frmNavigatieHoofdstuk1() {
             InitializeComponent();
         }
+
+        private void btnOefening1_Click(object sender, EventArgs e) {
+            frmOefening1 frmOefening1 = new frmOefening1();
+            frmOefening1.Show();
+        }
     }
 }

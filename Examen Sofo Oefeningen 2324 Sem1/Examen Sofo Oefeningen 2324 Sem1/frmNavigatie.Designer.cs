@@ -33,7 +33,7 @@
             // btnHoofdstuk1
             // 
             this.btnHoofdstuk1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHoofdstuk1.ForeColor = System.Drawing.Color.Red;
+            this.btnHoofdstuk1.ForeColor = System.Drawing.Color.Yellow;
             this.btnHoofdstuk1.Location = new System.Drawing.Point(13, 13);
             this.btnHoofdstuk1.Name = "btnHoofdstuk1";
             this.btnHoofdstuk1.Size = new System.Drawing.Size(775, 68);
@@ -57,7 +57,7 @@
             // btnHoofdstuk3
             // 
             this.btnHoofdstuk3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHoofdstuk3.ForeColor = System.Drawing.Color.Red;
+            this.btnHoofdstuk3.ForeColor = System.Drawing.Color.Yellow;
             this.btnHoofdstuk3.Location = new System.Drawing.Point(12, 161);
             this.btnHoofdstuk3.Name = "btnHoofdstuk3";
             this.btnHoofdstuk3.Size = new System.Drawing.Size(775, 68);

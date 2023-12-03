@@ -30,13 +30,14 @@
             // btnOefening1
             // 
             this.btnOefening1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOefening1.ForeColor = System.Drawing.Color.Red;
+            this.btnOefening1.ForeColor = System.Drawing.Color.Green;
             this.btnOefening1.Location = new System.Drawing.Point(13, 13);
             this.btnOefening1.Name = "btnOefening1";
             this.btnOefening1.Size = new System.Drawing.Size(182, 74);
             this.btnOefening1.TabIndex = 0;
             this.btnOefening1.Text = "Oefening 1";
             this.btnOefening1.UseVisualStyleBackColor = true;
+            this.btnOefening1.Click += new System.EventHandler(this.btnOefening1_Click);
             // 
             // btnOefening2
             // 

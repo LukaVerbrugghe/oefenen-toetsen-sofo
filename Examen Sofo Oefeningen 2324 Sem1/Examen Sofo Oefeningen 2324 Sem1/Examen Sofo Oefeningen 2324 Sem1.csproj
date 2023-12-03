@@ -58,11 +58,41 @@
     <Compile Include="Hoofdstuk 1\frmNavigatieHoofdstuk1.Designer.cs">
       <DependentUpon>frmNavigatieHoofdstuk1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hoofdstuk 1\frmOefening1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 1\frmOefening1.Designer.cs">
+      <DependentUpon>frmOefening1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hoofdstuk 2\frmNavigatieHoofdstuk2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Hoofdstuk 2\frmNavigatieHoofdstuk2.Designer.cs">
       <DependentUpon>frmNavigatieHoofdstuk2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm01_graden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm01_graden.Designer.cs">
+      <DependentUpon>frm01_graden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm03_GrootsteGetal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm03_GrootsteGetal.Designer.cs">
+      <DependentUpon>frm03_GrootsteGetal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm05_Geboortejaar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm05_Geboortejaar.Designer.cs">
+      <DependentUpon>frm05_Geboortejaar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm07_Toegangscode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 3\frm07_Toegangscode.Designer.cs">
+      <DependentUpon>frm07_Toegangscode.cs</DependentUpon>
     </Compile>
     <Compile Include="Hoofdstuk 3\frmNavigatieHoofdstuk3.cs">
       <SubType>Form</SubType>
@@ -102,8 +132,23 @@
     <EmbeddedResource Include="Hoofdstuk 1\frmNavigatieHoofdstuk1.resx">
       <DependentUpon>frmNavigatieHoofdstuk1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 1\frmOefening1.resx">
+      <DependentUpon>frmOefening1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hoofdstuk 2\frmNavigatieHoofdstuk2.resx">
       <DependentUpon>frmNavigatieHoofdstuk2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 3\frm01_graden.resx">
+      <DependentUpon>frm01_graden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 3\frm03_GrootsteGetal.resx">
+      <DependentUpon>frm03_GrootsteGetal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 3\frm05_Geboortejaar.resx">
+      <DependentUpon>frm05_Geboortejaar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 3\frm07_Toegangscode.resx">
+      <DependentUpon>frm07_Toegangscode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hoofdstuk 3\frmNavigatieHoofdstuk3.resx">
       <DependentUpon>frmNavigatieHoofdstuk3.cs</DependentUpon>
