@@ -112,6 +112,12 @@
     <Compile Include="Hoofdstuk 4\03_Iteraties\frmIteraties.Designer.cs">
       <DependentUpon>frmIteraties.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hoofdstuk 4\03_Iteraties\frm03_Sterren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\03_Iteraties\frm03_Sterren.Designer.cs">
+      <DependentUpon>frm03_Sterren.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hoofdstuk 4\frmNavigatieHoofdstuk4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hoofdstuk 4\02_Selectie\frmSelectie.resx">
       <DependentUpon>frmSelectie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\03_Iteraties\frm03_Sterren.resx">
+      <DependentUpon>frm03_Sterren.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hoofdstuk 4\03_Iteraties\frmIteraties.resx">
       <DependentUpon>frmIteraties.cs</DependentUpon>
