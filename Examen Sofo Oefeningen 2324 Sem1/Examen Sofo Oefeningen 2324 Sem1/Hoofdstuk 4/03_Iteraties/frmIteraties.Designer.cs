@@ -36,13 +36,14 @@
             // btnOef1
             // 
             this.btnOef1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOef1.ForeColor = System.Drawing.Color.Red;
+            this.btnOef1.ForeColor = System.Drawing.Color.Green;
             this.btnOef1.Location = new System.Drawing.Point(12, 12);
             this.btnOef1.Name = "btnOef1";
             this.btnOef1.Size = new System.Drawing.Size(182, 74);
             this.btnOef1.TabIndex = 3;
             this.btnOef1.Text = "Examenscore";
             this.btnOef1.UseVisualStyleBackColor = true;
+            this.btnOef1.Click += new System.EventHandler(this.btnOef1_Click);
             // 
             // btnOef2
             // 
