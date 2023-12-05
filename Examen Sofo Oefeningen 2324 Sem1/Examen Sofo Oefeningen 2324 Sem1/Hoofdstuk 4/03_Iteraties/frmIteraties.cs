@@ -13,5 +13,11 @@ namespace Examen_Sofo_Oefeningen_2324_Sem1.Hoofdstuk_4._03_Iteraties {
         public frmIteraties() {
             InitializeComponent();
         }
+
+        private void btnOef3_Click(object sender, EventArgs e)
+        {
+            frm03_Sterren frm03_Sterren = new frm03_Sterren();
+            frm03_Sterren.Show();
+        }
     }
 }

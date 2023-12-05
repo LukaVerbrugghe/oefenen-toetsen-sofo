@@ -58,13 +58,14 @@
             // btnOef3
             // 
             this.btnOef3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOef3.ForeColor = System.Drawing.Color.Red;
+            this.btnOef3.ForeColor = System.Drawing.Color.Green;
             this.btnOef3.Location = new System.Drawing.Point(388, 12);
             this.btnOef3.Name = "btnOef3";
             this.btnOef3.Size = new System.Drawing.Size(182, 74);
             this.btnOef3.TabIndex = 5;
             this.btnOef3.Text = "Sterren";
             this.btnOef3.UseVisualStyleBackColor = true;
+            this.btnOef3.Click += new System.EventHandler(this.btnOef3_Click);
             // 
             // btnOef4
             // 

@@ -25,7 +25,7 @@ namespace Examen_Sofo_Oefeningen_2324_Sem1.Hoofdstuk_4._03_Iteraties
 
             for (int i = 0; i < intSterren; i++)
             {
-                lblSterren
+                lblSterren.Text += "*";
             }
         }
     }
